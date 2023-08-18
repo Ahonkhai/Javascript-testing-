@@ -609,4 +609,15 @@ if (typeof window === "object") {
     console.log("code is running in a non-browser environment")
   }
 
+  // log 1-100 and number thats divisible by 3 log "fizz" divisible by 5 log "buzz"
+
+  for(let a = 1; a < 101; a++){
+    if(a % 3 == 0){
+        console.log("FIZZ")
+    }
+    else if(a % 5 == 0){
+        console.log("BUZZ")
+    }
+    console.log(a)
+  }
   
