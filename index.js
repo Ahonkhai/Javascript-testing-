@@ -620,4 +620,35 @@ if (typeof window === "object") {
     }
     console.log(a)
   }
+
+  // Given an array of intergers, return an array, where the first element is the count of positives numbers 
+  // and the second element is sum of negative numbers. 0 is either positive or negative If the input array is empty or null, 
+  // return an empty array.
+
+
+    function Positives_Negatives(input) {
+        var positive_count = 0;
+        var negative_count = 0;
+        if (input == null || input.length == 0) {
+          return [];
+        }
+        for (var i = 0; i < input.length; i++) {
+          if (input[i] > 0) {
+            positive_count++;
+          } else {
+            negative_sum += input[i];
+          }
+        }
+        return [positive_count, negative_sum];
+      }
+
+      var input_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, -10, -11, -12, -13, -14, -15];
+      var result = Positives_Negatives(input_array);
+
+      
+      console.log(result);
+      console.log("Count of positive numbers: " + result[0] + ", Sum of negative numbers: " + result[1]);
+    
+
+    
   
