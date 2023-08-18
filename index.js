@@ -636,7 +636,7 @@ if (typeof window === "object") {
 
     function Positives_Negatives(input) {
         var positive_count = 0;
-        var negative_count = 0;
+        var negative_sum = 0;
         if (input == null || input.length == 0) {
           return [];
         }
@@ -658,4 +658,32 @@ if (typeof window === "object") {
       console.log("Count of positive numbers: " + result[0] + ", Sum of negative numbers: " + result[1]);
     
 
-    // Give the page a dark and light theme 🦆
+    // Write a function that generates a random password.
+
+    var length = 16
+    var digits = "1234567890"
+    var symbols = "!@#$%^&*()_+-=;{}[]:.<?/|/"
+    var Uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    var Lowercase = "abcdefghijklmnopqrstuvwxyz"
+
+    var characters = digits + symbols + Uppercase + Lowercase
+
+    function random_password() {
+        var password = ""
+        password += digits[Math.floor(Math.random() * digits.length)]
+        password += symbols[Math.floor(Math.random() * symbols.length)]
+        password += Uppercase[Math.floor(Math.random() * Uppercase.length)]
+        password += Lowercase[Math.floor(Math.random() * Lowercase.length)]
+        
+
+        while(length > password.length) {
+            password += characters[Math.floor(Math.random() * characters.length)]
+        }
+
+        
+        console.log("Here is the password" + " " + password)
+    }
+    
+    random_password()
+
+     // write a function that generates random hexadecimal color codes
