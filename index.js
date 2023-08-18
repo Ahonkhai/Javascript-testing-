@@ -645,10 +645,9 @@ if (typeof window === "object") {
       var input_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, -10, -11, -12, -13, -14, -15];
       var result = Positives_Negatives(input_array);
 
-      
+
       console.log(result);
       console.log("Count of positive numbers: " + result[0] + ", Sum of negative numbers: " + result[1]);
     
 
-    
-  
+    // Give the page a dark and light theme 🦆
