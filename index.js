@@ -609,17 +609,25 @@ if (typeof window === "object") {
     console.log("code is running in a non-browser environment")
   }
 
-  // log 1-100 and number thats divisible by 3 log "fizz" divisible by 5 log "buzz"
+    // Print 1..100
+    // print "fizz" if divisible by 3
+    // print "buzz" if divisible by 5
+    // print "fizzbuzz" if divisible by both"
 
   for(let a = 1; a < 101; a++){
     if(a % 3 == 0){
-        console.log("FIZZ")
+        console.log("fizz")
     }
-    else if(a % 5 == 0){
-        console.log("BUZZ")
+
+    if(a % 5 == 0){
+        console.log("buzz")
     }
     console.log(a)
+
+    if(a % 3 == 0 && a % 5 == 0){
+        console.log("fizzbuzz")
   }
+}
 
   // Given an array of intergers, return an array, where the first element is the count of positives numbers 
   // and the second element is sum of negative numbers. 0 is either positive or negative If the input array is empty or null, 
