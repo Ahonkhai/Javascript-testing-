@@ -688,6 +688,22 @@ if (typeof window === "object") {
 
      // write a function that generates random hexadecimal color codes
 
+     var hexa = "0123456789ABCDEF"
+     var length_hexa = 6
+
+     function hexadecimal() {
+        var hash = "#"
+
+        while(length_hexa > hash.length) {
+            hash += hexa[Math.floor(Math.random() * length)]
+        }
+
+        console.log(hash)
+
+
+     }
+
+
 
      // make a function  that generates prime numbers between 1 and 100
         function prime() {
