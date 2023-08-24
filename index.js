@@ -689,4 +689,13 @@ if (typeof window === "object") {
      // write a function that generates random hexadecimal color codes
 
 
-     // make a button that generates prime numbers 
+     // make a button that generates prime numbers between 1 and 100
+        function prime() {
+            for (var i = 0; i < 101; i++) {
+                if (i % 2 == 0) {
+                    console.log(i)
+                }
+            }
+        }
+
+        prime()
