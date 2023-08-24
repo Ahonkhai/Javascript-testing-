@@ -687,3 +687,6 @@ if (typeof window === "object") {
     random_password()
 
      // write a function that generates random hexadecimal color codes
+
+
+     // make a button that generates prime numbers 
