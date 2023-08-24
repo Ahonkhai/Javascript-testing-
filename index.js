@@ -136,9 +136,9 @@ console.log(messagetouser)
 
 var initials = "David"
 var greeting = "Hi, my name is"
-var mygreetings = greeting + ", " + initials
+var my_greetings = greeting + ", " + initials
 
-console.log(mygreetings)
+console.log(my_greetings)
 
 // Assignment 12.💀12x
 // solve these lol
@@ -187,11 +187,11 @@ welcomeEl.innerText = welcomeEl.innerText + "👋"
 // concatenate the two variables into a third variable called full name
 // Log full name to console 
 
-var firstname = "David"
-var lastname = "Ahonkhai"
-var fullname = firstname + " " + lastname
+var first_name = "David"
+var last_name = "Ahonkhai"
+var full_name = first_name + " " + last_name
 
-console.log(fullname)
+console.log(full_name)
 
 // practice 2. 🍎
 // create a function that calls "Hi there, Linda!" when called
@@ -517,7 +517,7 @@ for ( var numbers = 1; numbers < 11; numbers += 1 )
 
 console.log(numbers)
 
-console.log("This is just a log to seperate the numbers 🗿")
+console.log("This is just a log to separate the numbers 🗿")
 
 // Assignment something x2 💀💀💀💀💀💀💀💀💀💀
 // Create a for loop that counts from 10 to 100 in steps of 10
@@ -709,3 +709,5 @@ if (typeof window === "object") {
             }
         }
         prime()
+
+    // Challenge: Write a function called findDuplicates that takes an array of numbers as input and returns an array containing all the numbers that appear more than once in the input array.
