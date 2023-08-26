@@ -11,6 +11,7 @@ console.log('Assignment 1')
 
 var my_age = 17
 
+
 console.log(my_age)
 
 // Assignment 2.💀💀
