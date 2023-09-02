@@ -701,7 +701,7 @@ if (typeof window === "object") {
     console.log(hexadecimal());
 
 
-     // make a function  that generates prime numbers between 1 and 50
+     // make a function  that generates prime and odd numbers between 1 and 50 log prime or odd besides each number
         function prime() {
             for (var i = 0; i < 51; i++) {
                 if (i % 2 == 0) {
