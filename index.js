@@ -701,14 +701,16 @@ if (typeof window === "object") {
     console.log(hexadecimal());
 
 
-     // make a function  that generates prime numbers between 1 and 100
+     // make a function  that generates prime numbers between 1 and 50
         function prime() {
-            for (var i = 0; i < 101; i++) {
+            for (var i = 0; i < 51; i++) {
                 if (i % 2 == 0) {
-                    console.log(i)
+                    console.log("Prime" + " " + i )
+                }
+                else if(i % 2 != 0) {
+                    console.log("odd" + " " + i)
                 }
             }
         }
         prime()
 
-    // Challenge: Write a function called findDuplicates that takes an array of numbers as input and returns an array containing all the numbers that appear more than once in the input array.
