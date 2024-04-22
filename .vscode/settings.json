@@ -25,5 +25,6 @@
         "startgame",
         "textcontent",
         "totalsum"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
